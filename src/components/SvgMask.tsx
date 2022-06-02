@@ -176,7 +176,7 @@ export class SvgMask extends Component<Props, State> {
     this.setState({
       canvasSize: {
         x: width,
-        y: height,
+        y: height + 125,
       },
     })
   }
